@@ -1,0 +1,120 @@
+/* Flex classes */
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Desse elementene funker kun om elementet også har flex klassen */
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+/* Personal styles */
+.listStyleRemover {
+    list-style-type: none;
+}
+
+.noUnderscore {
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    color: (--primaryWhite);
+}
+nav > ul > li > a:visited {
+    color: (--primaryWhite);
+}
+
+/* Responsive sizes */
+.widthResponsiveSmall {
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.widthResponsiveBig {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* BODY */
+
+.body {
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondaryColor);
+    color: var(--primaryWhite);
+    font-family: var(--primaryFontFamily);
+}
+
+/* .headerNav {
+
+} */
+
+.headerNavUl {
+    list-style-type: none;
+    gap: 10rem;
+}
+
+.headerNavA {
+    text-decoration: none;
+}
+
+.headerNavA:visited {
+        color: var(--primaryWhite);
+}
+
+/* .headerNavLi {
+  
+} */
+
+/* MAIN */
+.main {
+    background-color: var(--primaryColor);
+    color: var(--primaryBlack);
+}
+
+.section {
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--secondaryColor);
+    color: var(--primaryWhite);
+}
+
+/* .footerNav {
+
+} */
+
+.footerNavUl {
+    list-style-type: none;
+}
+
+.footerNavA {
+    text-decoration: none;
+}
+
+/* .footerNavLi {
+
+} */

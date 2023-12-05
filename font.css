@@ -1,0 +1,30 @@
+:root {
+    --primaryFontFamily: Helvetica;
+    --secondaryFontFamily: Impact;
+
+    --fontsizeHeadingOne: 2.5rem;
+    --fontsizeHeadingTwo: 1.5rem;
+    --fontsizeParagraph: 1rem;
+
+}
+
+h1 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingOne);
+}
+
+h2 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingTwo);
+}
+
+h3 {
+    font-family: var(--secondaryFontFamily);
+    font-size: var(--fontsizeHeadingTwo);
+}
+
+p {
+    font-family: var(--primaryFontFamily);
+    font-size: var(--fontsizeParagraph);
+}
+
